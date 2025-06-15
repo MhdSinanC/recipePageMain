@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit',sans-serif;
+}
+
+main {
+    width: 42%;
+    border-radius: 1.563rem;
+    background-color: white;
+    padding: 2.188rem 2.5rem;
+    margin: 70px 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.75rem;
+}
+
+h1 {
+    font-family: 'Young Serif',sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+}
+
+div.preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin: 1.875rem 0;
+    padding: 0.313rem 1.688rem;
+    border-radius: 0.75rem;
+}
+
+ul {
+    padding: 0 1.563rem;
+    list-style-type: disc;
+}
+
+li::marker {
+    font-size: 0.75rem;
+    color: hsl(332, 51%, 32%);
+}
+
+ul li {
+    padding: 0.313rem 0.938rem;
+    color: hsl(30, 10%, 34%);
+}
+
+span {
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: -0.313rem;
+}
+
+ol li {
+    padding: 0.438rem 0.875rem;
+    line-height: 1.375rem;
+    margin: 0 -1.063rem;
+    color: hsl(30, 10%, 34%);
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+.Nutrition-name {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+.Nutrition-value {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    height: 3.125rem;
+    width: 17.75rem;
+}
+
+table {
+    margin: 1.25rem 1.875rem;
+}
+
+
+@media(max-width: 400px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    img {
+        border-radius: 0;
+    }
+
+    .mb {
+        margin: 25px 22px;
+    }
+}
