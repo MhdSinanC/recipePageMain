@@ -29,6 +29,10 @@ h3 {
     color: hsl(332, 51%, 32%);
 }
 
+hr {
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
 p {
     color: hsl(30, 10%, 34%);
 }
@@ -88,9 +92,9 @@ ol > li::marker {
 }
 
 td {
-    border-bottom: 1px solid hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
     height: 3.125rem;
-    width: 17.75rem;
+    width: 19.75rem;
 }
 
 table {
@@ -98,7 +102,7 @@ table {
 }
 
 
-@media(max-width: 400px) {
+@media(max-width: 25rem) {
 
     body {
         margin: 0;
@@ -117,6 +121,6 @@ table {
     }
 
     .mb {
-        margin: 25px 22px;
+        margin: 1.563rem 1.375rem;
     }
 }
